@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Timing</string>
+    <string name="remove_all">Remove All</string>
+    <string name="save_add_one">SAVE</string>
+</resources>
