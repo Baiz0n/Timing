@@ -2,12 +2,12 @@ package com.nothing.timing.timing.bloc.data;
 
 
 import android.animation.ValueAnimator;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
@@ -167,7 +167,7 @@ public class GeneralAppData {
 
         final float[] hsv = new float[3];                  // transition color
         anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+            @TargetApi(Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 // Transition along each axis of HSV (hue, saturation, value)

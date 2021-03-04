@@ -12,7 +12,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".ui.MainActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait">
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,10 +21,10 @@
         </activity>
         <activity android:name=".ui.Entry"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="fullSensor"/>
         <activity android:name=".ui.HourSetter"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="fullSensor"/>
     </application>
 
 </manifest>
